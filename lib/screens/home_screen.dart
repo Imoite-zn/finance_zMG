@@ -18,7 +18,7 @@ class HomeScreen extends StatefulWidget {
 }
 
 class _HomeScreenState extends State<HomeScreen> {
-  final currencyFormat = NumberFormat.currency(symbol: '₹', decimalDigits: 2);
+  final currencyFormat = NumberFormat.currency(symbol: 'KES', decimalDigits: 2);
   int _currentMonth = DateTime.now().month;
 
   @override

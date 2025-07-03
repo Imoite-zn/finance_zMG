@@ -30,7 +30,7 @@ class SavingsCard extends StatelessWidget {
           borderRadius: BorderRadius.circular(16),
           boxShadow: [
             BoxShadow(
-              color: const Color(0xFF2E5A88).withOpacity(0.1), // Grey-blue shadow
+              color: const Color(0xFF2E5A88).withValues(alpha: 0.1), // Grey-blue shadow
               blurRadius: 10,
               offset: const Offset(0, 4),
             ),

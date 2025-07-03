@@ -80,14 +80,14 @@ class BudgetProgress extends StatelessWidget {
           mainAxisAlignment: MainAxisAlignment.spaceBetween,
           children: [
             Text(
-              'Spent: ₹${spent.toStringAsFixed(2)}',
+              'Spent: KES${spent.toStringAsFixed(2)}',
               style: const TextStyle(
                 color: Colors.black87,
                 fontWeight: FontWeight.w500,
               ),
             ),
             Text(
-              'Budget: ₹${budget.toStringAsFixed(2)}',
+              'Budget: KES${budget.toStringAsFixed(2)}',
               style: const TextStyle(
                 color: Colors.black87,
                 fontWeight: FontWeight.w500,

@@ -22,11 +22,11 @@ class EmptyState extends StatelessWidget {
               curve: Curves.elasticOut,
               padding: const EdgeInsets.all(20),
               decoration: BoxDecoration(
-                color: const Color(0xFF2E5A88).withOpacity(0.1), // Light grey-blue background
+                color: const Color(0xFF2E5A88).withValues(alpha: 0.1), // Light grey-blue background
                 shape: BoxShape.circle,
                 boxShadow: [
                   BoxShadow(
-                    color: const Color(0xFF2E5A88).withOpacity(0.2),
+                    color: const Color(0xFF2E5A88).withValues(alpha: 2.0),
                     blurRadius: 8,
                     offset: const Offset(0, 4),
                   ),

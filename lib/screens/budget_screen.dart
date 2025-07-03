@@ -57,7 +57,7 @@ class _BudgetScreenState extends State<BudgetScreen> {
                       keyboardType: TextInputType.number,
                       decoration: const InputDecoration(
                         labelText: 'Monthly Budget',
-                        prefixText: '₹ ',
+                        prefixText: 'KES ',
                         border: OutlineInputBorder(
                           borderRadius: BorderRadius.all(Radius.circular(12)),
                         ),

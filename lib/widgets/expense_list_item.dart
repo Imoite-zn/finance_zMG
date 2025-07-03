@@ -23,7 +23,7 @@ class ExpenseListItem extends StatelessWidget {
         leading: Container(
           padding: const EdgeInsets.all(8),
           decoration: BoxDecoration(
-            color: _getCategoryColor(expense.category).withOpacity(0.15),
+            color: _getCategoryColor(expense.category).withValues(alpha: 0.15),
             shape: BoxShape.circle,
           ),
           child: Icon(

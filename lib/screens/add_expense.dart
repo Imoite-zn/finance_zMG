@@ -64,7 +64,7 @@ class _AddExpenseScreenState extends State<AddExpenseScreen> {
                 keyboardType: TextInputType.number,
                 decoration: InputDecoration(
                   labelText: 'Amount',
-                  prefixText: '₹ ',
+                  prefixText: 'KES ',
                   border: OutlineInputBorder(
                     borderRadius: BorderRadius.circular(12),
                   ),
@@ -201,7 +201,7 @@ class _AddExpenseScreenState extends State<AddExpenseScreen> {
       // Show success feedback
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-          content: Text('₹${expense.amount.toStringAsFixed(2)} expense added'),
+          content: Text('KES${expense.amount.toStringAsFixed(2)} expense added'),
           backgroundColor: const Color(0xFF4A7C59), // Lighter jungle green for success
         ),
       );

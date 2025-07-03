@@ -45,7 +45,7 @@ class NotificationService {
     final budget = Provider.of<BudgetProvider>(context, listen: false).monthlyBudget;
 
     if (budget > 0 && spent > budget * 0.9) {
-      final format = NumberFormat.currency(symbol: '₹');
+      final format = NumberFormat.currency(symbol: 'KES');
       final remaining = (budget - spent).clamp(0, double.infinity);
 
       flutterLocalNotificationsPlugin.show(
